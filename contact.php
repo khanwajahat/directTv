@@ -118,11 +118,7 @@ include_once($header);
         </div>
       </div>
       <div class="col-lg-4 sidebar"> 
-        <?php
-        $sidebar = $_SERVER['HTTP_HOST']; 
-        $sidebar = "includes/sidebar.php"; 
-        include_once($sidebar); 
-        ?>  
+         
       </div>
     </div>
   </div>
